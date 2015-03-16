@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Rechercher Variété</title>
+		<style>
+			h1 {
+				text-align: center;
+			}
+			
+			div {
+				text-align: center;
+				margin: 0 auto;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Rechercher une variété</h1>
+		<form method="get" action="http://localhost:8080/nuceus01/RechercherVarieteGet">
+		<div>
+			<label>Nom de variété</label>&nbsp;<input type="text" name="variete">
+		</div>
+		<div>
+			<button type="submit">Valider</button>
+			<button type="reset">Annuler</button>
+		</div>
+		</form>
+	</body>
+</html>
